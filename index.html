@@ -43,14 +43,84 @@
         <p>form input data penduduk</p>
         <form action="#">
             <div>
-                <span>masukan nama kabupaten</span>
+                <span>masukan nama kabupaten    :</span>
                 <input type="text" placeholder="nama kabupaten">
             </div>
 
             <div>
-                <span>masukan nama anda</span>
+                <span>masukan nama anda :</span>
                 <input type="text" placeholder="nama anda">
             </div>
+
+            <div>
+                <span>jenis kelamin : </span>
+                <input type="radio" name="jenis kelamin" id="Laki-Laki">Laki laki
+                <input type="radio" name="Jenis kelamin" id="Perempuan">Perempuan
+            </div>
+
+            <div>
+                <span>status    :</span>
+                <input type="checkbox" name="status" id="Sudah">Sudah
+                <input type="checkbox" name="status" id="Belum">Belum
+            </div>
+            <div>
+                <span> masukan password anda    :</span>
+                <input type="password" name="pwd" placeholder="masukan password anda">
+            </div>
+
+            <div>
+                <span> daerah tempat tinggal di jogja</span>
+                <select name="wilayah">
+                    <option value="Pilih Kota Anda">Pilih Kota Anda</option>
+                    <option value="Sleman">Sleman</option>
+                    <option value="Bantul">Bantul</option>
+                    <option value="Gunung Kidul">Gunung Kidul</option>
+                    <option value="Kota Yogyakarta">Kota Yogyakarta</option>
+                </select>
+            </div>
+        <br>
+            <fieldset>
+                <legend>Personalia  :</legend>
+                Name : <input type="text"><br>
+                Email : <input type="text"><br>
+                Date of birth : <input type="text">
+            </fieldset>
         </form>
+
+    <h1> Tabel Mahasiswa</h1>
+    <p> Tabel berikut ini menjelaskan daftar mahasiswa</p>
+    
+    <table style="width: 100%">
+            <tr>
+                <th>Justin Bieber</th>
+                <th>12.34.5678</th>
+                <th>Informatika</th>
+            </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th rowspan="2" bgcolor="lightgreen">komoditi</th>
+            <th colspan="3" bgcolor="orange">bulan</th>
+        </tr>
+
+        <tr>
+            <th>Januari</th>
+            <th>Februari</th>
+            <th>Maret</th>
+        </tr>
+        <tr>
+            <td>Cengkeh</td>
+            <td>5 toh</td>
+            <td>3 ton</td>
+            <td>4 ton</td>
+        </tr>
+        <tr>
+            <td>Tembakau</td>
+            <td>4 ton</td>
+            <td>2.3 ton</td>
+            <td>4 ton</td>
+        </tr>
+    </table>
 </body>
 </html>
